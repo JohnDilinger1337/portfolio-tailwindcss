@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-button {
+    animation: button 0.8s linear infinite;
+    animation-direction: alternate;
+    transform: scale(1, 1);
+}
+
+/* animatuin */
+/* animatuin */
+@keyframes button {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.06, 1.06);
+    }
+}.contact-button:hover,
+.contact-buttonn:hover{
+    animation-play-state: paused;
+}
